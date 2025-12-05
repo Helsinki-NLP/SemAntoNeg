@@ -26,7 +26,7 @@ The data is formatted as follows:
 
 The sentence in the **Input** column is the source sentence, and the sentences in the **Options** column are the candidate paraphrases. The dataset is formatted such that the most similar sentence is always the last one in the options. Hence, the correct **label** is always 2.
 
-In the actual data, entries are stored in JSON Lines format (```.jsonl```), including an idx field. The dataset is sequentially ordered by ```idx```, but the examples below are selected for visualization purposes and do not reflect the first few lines of the dataset:
+In the actual data, entries are stored in JSON Lines format (```.jsonl```), including an ```idx``` field. The dataset is sequentially ordered by ```idx```, but the examples below are selected for visualization purposes and do not reflect the first few lines of the dataset:
 
 ```jsonl
 {"idx": 2758, "label": 2, "input": "No, that's true.", "sentences": ["No, that's false.", "No, that's not true.", "No, that's not false."]}
