@@ -25,3 +25,13 @@ The data is formatted as follows:
 
 
 The sentence in the **Input** column is the source sentence, and the sentences in the **Options** column are the candidate paraphrases. The dataset is formatted such that the most similar sentence is always the last one in the options. Hence, the correct **label** is always 2.
+
+In the actual data is in a jsonlines format:
+
+```jsonl
+{"idx": 0, "label": 2, "input": "No, that's true.", "sentences": ["No, that's false.", "No, that's not true.", "No, that's not false."]}
+{"idx": 1, "label": 2, "input": "I'm guilty.", "sentences": ["I'm innocent.", "I'm not guilty.", "I'm not innocent."]}
+{"idx": 2, "label": 2, "input": "I'm not sure.", "sentences": ["I'm not uncertain.", "I'm sure.", "I'm uncertain."]}
+{"idx": 3, "label": 2, "input": "That is good.", "sentences": ["That is bad.", "That is not good.", "That is not bad."]}
+{"idx": 4, "label": 2, "input": "I know you're not asleep.", "sentences": ["I know you're not awake.", "I know you're asleep.", "I know you're awake."]}
+```
