@@ -35,3 +35,5 @@ In the actual data, entries are stored in JSON Lines format (```.jsonl```), incl
 {"idx": 2830, "label": 2, "input": "That is good.", "sentences": ["That is bad.", "That is not good.", "That is not bad."]}
 {"idx": 547, "label": 2, "input": "I know you're not asleep.", "sentences": ["I know you're not awake.", "I know you're asleep.", "I know you're awake."]}
 ```
+
+License: Creative Commons Attribution 4.0 International License (CC-BY)
